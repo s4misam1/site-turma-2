@@ -4,17 +4,20 @@
 }
 
 .cabecalho {
-    header {
     background-color: #424E61;
     color: white;
     display: flex;
     justify-content: space-around;
-    }
+    align-items: center;
+    margin: 24xp 0;
+}
+    
     .cabecalho.imagem{
     width: 20%;
-
 }
 
-     .cabecalho-lista-item{
+.cabecalho-lista-item{
     display:inline-block;
-}  
+    margin: 0 16px;
+    font-size: 24px;
+}
